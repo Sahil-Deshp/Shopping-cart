@@ -13,7 +13,7 @@ Polymorphism: Methods like add_item() or remove_item() behave differently depend
 Abstraction: Complex operations are hidden behind clean interfaces, making the app easier to maintain and extend.
 
 ## 📁 Project Structure
-
+```
 shopping-cart-app/ 
 ├── src/ 
 │ ├── controllers/ # Business logic and cart operations │ ├── exceptions/ # Custom exception classes 
@@ -24,7 +24,7 @@ shopping-cart-app/
 │ ├── tests/ # Unit tests 
 ├── README.md # Project documentation 
 ├── requirements.txt # Python dependencies
-
+```
 
 ## 🚀 Features
 
@@ -79,4 +79,9 @@ Add RESTful API endpoints
 👨‍💻 Author
 Developed by Sahil, a passionate data and software enthusiast focused on building impactful, user-friendly applications
 
+ 
 
+### Connect :
+- **LinkedIn**: [Connect with me professionally](https://in.linkedin.com/in/sahilsdeshpande)
+
+Thank you for your support, and I look forward to connecting with you!
