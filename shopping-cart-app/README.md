@@ -2,6 +2,16 @@
 
 A modular, object-oriented shopping cart web application built with **Flask**. This project demonstrates clean architecture using MVC principles, custom exception handling, and a user-friendly interface for managing products and cart operations.
 
+##💡 Object-Oriented Concepts Used
+
+Encapsulation: Each component (e.g., Product, Cart) is defined as a class with its own attributes and methods, keeping logic self-contained.
+
+Inheritance: Common behaviors are abstracted into base classes and extended where needed.
+
+Polymorphism: Methods like add_item() or remove_item() behave differently depending on the object context.
+
+Abstraction: Complex operations are hidden behind clean interfaces, making the app easier to maintain and extend.
+
 ## 📁 Project Structure
 
 shopping-cart-app/ 
