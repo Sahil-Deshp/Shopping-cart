@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h2>Add Product</h2>
+                <form method="POST" action="{{ url_for('add_product') }}">
+                    <div class="mb-3">
+                        <label class="form-label">Product Type:</label>
+                        <select name="product_type" class="form-select" required>
+                            <option value="electronics">Electronics</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="grocery">Grocery</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Name:</label>
+                        <input type="text" name="name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Price:</label>
+                        <input type="number" name="price" step="0.01" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

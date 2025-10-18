@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.container {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-form {
+    background-color: #f5f5f5;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
